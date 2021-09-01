@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class topic1_3 {
 
 	public static void main(String[] args) {
@@ -16,7 +16,23 @@ public class topic1_3 {
 		System.out.println(Math.pow(y, 3));
 		double realAnswer = (x / y);
 		System.out.println(realAnswer);
+		double x1 = 9 / 4;
+		System.out.println(x1);
+		@SuppressWarnings("resource")
+		Scanner s1 = new Scanner(System.in);
+System.out.println("enter an int");
+		int first = s1.nextInt();
+		int second = s1.nextInt();
+		//output the result of dividing __ and __ is __
+		System.out.println("output: the result of dividing " + first + " and " + second + " is " + first / second);
 
+		System.out.println("lets find the base of your triangle");
+		double base = s1.nextDouble();
+		double height = s1.nextDouble();
+		//make an area variable and print the results
+		
+		System.out.println("the area of your triangle is " + base * height / 2);
+		
 	}
 
 }
