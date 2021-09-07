@@ -2,7 +2,7 @@
 public class topic1_4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//we just talkd about stuff I think
 
 	}
 

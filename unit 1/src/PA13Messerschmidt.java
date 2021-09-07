@@ -1,5 +1,5 @@
 
-public class gravity1_3 {
+public class PA13Messerschmidt {
 
 	public static void main(String[] args) {
 		
