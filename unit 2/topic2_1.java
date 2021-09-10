@@ -8,8 +8,12 @@ public class topic2_1{
 
         //how to make an object
         String word = new String("hello");
+        
+        String word1 = new String("goodbye");
 
-        Paper thing = new Paper("pink");
+        Paper paper1 = new Paper("pink");
+
+        Paper paper2 = new Paper("white", "lined", 8, 6, 0.0001);
 
     }
 }
