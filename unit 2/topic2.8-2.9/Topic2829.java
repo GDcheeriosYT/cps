@@ -51,6 +51,8 @@ public class Topic2829 {
 
         System.out.println("joe " + Topic2829.randInt(2, 9));
 
+        quadraticSolver("24^2");
+
     }
 
     public static int randInt(int low, int high){
@@ -63,10 +65,31 @@ public class Topic2829 {
 
     public static double quadraticSolver(int a, int b, int c){
 
-        Math.sqrt(a);
+       return 0;
 
-        return ;
+    }
 
+    
+    public static double quadraticSolver(String equation){
+
+    //ax^2 + bx + c = 0
+
+    String stepOne = Integer.parseInt(equation.substring(0, (equation.indexOf(/* looking for this character */"^", /* the position to start search*/0) - 1))) equation.substring(equation.indexOf(, equation.indexOf("^", 0)), );
+
+    //String stepTwo = (Integer.parseInt(stepOne) - )
+    
+
+
+    }
+
+    public static String mathGrabber(String problem){
+        if(problem.substring(problem.indexOf("^2") + 2) == "+"){
+            return "+";
+        }
+
+        else{
+            return "-";
+        }
     }
 
 }
