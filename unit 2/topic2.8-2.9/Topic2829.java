@@ -35,7 +35,7 @@ public class Topic2829 {
         System.out.println((int) (Math.random() * 6) + 1);
 
         //integers from 60 to 70
-        for (int i =0; i < 5; i++)
+        for (int i =0; i < 5; i++
         System.out.println((int) (Math.random() * 11) + 60);
 
         //in general, to get in a certain range...
@@ -74,7 +74,7 @@ public class Topic2829 {
 
     //ax^2 + bx + c = 0
 
-    String stepOne = Integer.parseInt(equation.substring(0, (equation.indexOf(/* looking for this character */"^", /* the position to start search*/0) - 1))) equation.substring(equation.indexOf(, equation.indexOf("^", 0)), );
+    String stepOne = (Integer.parseInt(equation.substring(0, (equation.indexOf(/* looking for this character */"^", /* the position to start search*/0) - 1))) + equation.substring(equation.indexOf(mathGrabber(equation, "^2", 2), equation.indexOf("^", 0)), ));
 
     //String stepTwo = (Integer.parseInt(stepOne) - )
     
@@ -82,8 +82,8 @@ public class Topic2829 {
 
     }
 
-    public static String mathGrabber(String problem){
-        if(problem.substring(problem.indexOf("^2") + 2) == "+"){
+    public static String mathGrabber(String problem, String pattern, int distance, String functionOutput){
+        if(problem.substring(problem.indexOf(pattern) + distance) == "+"){
             return "+";
         }
 
