@@ -1,4 +1,4 @@
-class Main {
+class tacothing {
     /*
     The Rater class represents a rating system for a company. The company is rated on a scale of 1 - 5.
   
